@@ -19,10 +19,25 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pratik15m.googleadsdemo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-8019714389381658~9349427358",
+          "iosAppId": "ca-app-pub-8019714389381658~9349427358"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d2574dda-d0ef-4675-bed5-da67e3b464b7"
+      }
     }
   }
 }
